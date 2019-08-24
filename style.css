@@ -139,6 +139,7 @@ table {
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
+    background-image: url('img/bg.png');
     color: #333;
 }
 
