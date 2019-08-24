@@ -205,11 +205,13 @@ li {
     text-decoration: none;
     color: salmon;
     padding: 3px;
+    font-size: 20px;
 }
 
 .top-bar a:hover {
-    background-color: lightskyblue;
-    color: white;
+    background-color: white;
+    color: lightskyblue;
+
 }
 
 .hero {
@@ -221,7 +223,7 @@ li {
     border-bottom: 10px solid lightskyblue;
 }
 
-
+/* face */
 .face img {
     width: 200px;
     height: 200px;
@@ -233,6 +235,23 @@ li {
     border: 10px solid rgb(158, 162, 165);
 }
 
+.face h1 {
+    position: absolute;
+    top: 480px;
+    right: 450px;
+    font-size: 50px;
+    color: #eaeaea;
+}
+
+.face p {
+    position: absolute;
+    top: 520px;
+    right: 430px;
+    font-size: 25px;
+    color: #eaeaea;
+}
+
+/* akhir face */
 .main {
     width: 600px;
     padding: 20px;
