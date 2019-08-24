@@ -157,7 +157,7 @@ body {
 .container {
     width: 100%;
     /* ini yang gw tambahin */
-    margin: 80px auto;
+    margin: 70px auto;
     background-color: #fff;
     position: relative;
 }
@@ -216,7 +216,7 @@ li {
     height: 500px;
     background-image: url('img/hero.jpg');
     background-size: cover;
-    background-position: 0 -60px;
+    background-position: 0 -150px;
     border-top: 10px solid salmon;
     border-bottom: 10px solid lightskyblue;
 }
@@ -228,7 +228,7 @@ li {
     background-size: cover;
     border-radius: 50%;
     position: absolute;
-    top: 315px;
+    top: 220px;
     right: 500px;
     border: 10px solid rgb(158, 162, 165);
 }
