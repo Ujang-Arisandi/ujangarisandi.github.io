@@ -181,12 +181,19 @@ body {
 .header .judul {
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 .header ul li {
     display: inline-block;
     margin-top: 20px;
     margin-right: 10px;
+}
+
+ul,
+li {
+    text-align: center;
+
 }
 
 .header a {
@@ -201,12 +208,23 @@ body {
 }
 
 .hero {
-    height: 400px;
+    height: 500px;
     background-image: url('img/hero.jpg');
     background-size: cover;
-    background-position: 0 -100px;
-    border-top: 5px solid salmon;
-    border-bottom: 5px solid lightskyblue;
+    background-position: 0 -60px;
+    border-top: 10px solid salmon;
+    border-bottom: 10px solid lightskyblue;
+}
+
+.face img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 370px;
+    border: 10px solid rgb(158, 162, 165);
 }
 
 .main {
