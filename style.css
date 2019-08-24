@@ -126,8 +126,8 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+    main: '';
+    main: none;
 }
 
 table {
@@ -184,26 +184,26 @@ body {
     border-bottom: 5px solid lightskyblue;
 }
 
-.content {
+.main {
     padding: 20px;
 }
 
-.content h2 {
+.main h2 {
     font-size: 28px;
     font-weight: bold;
 }
 
-.content .penulis {
+.main .penulis {
     font-size: 11px;
     margin-top: -5px;
 }
 
-.content .penulis a {
+.main .penulis a {
     text-decoration: none;
     color: salmon;
 }
 
-.content p {
+.main p {
     margin-bottom: 20px;
     font-size: 14px;
 }
