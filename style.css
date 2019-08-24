@@ -143,6 +143,17 @@ body {
     color: #333;
 }
 
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightblue;
+    z-index: 1;
+    ;
+}
+
 .container {
     width: 960px;
     /* ini yang gw tambahin */
