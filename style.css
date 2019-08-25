@@ -147,7 +147,7 @@ body {
 
 }
 
-.top-bar {
+/* .top-bar {
     position: fixed;
     top: 0;
     left: 0;
@@ -156,12 +156,12 @@ body {
     background-color: #666;
     z-index: 1;
     ;
-}
+} */
 
 .container {
     width: 100%;
     /* ini yang gw tambahin */
-    margin: 70px auto;
+    /* margin: 70px auto; */
     background-color: #fff;
     position: relative;
 }
