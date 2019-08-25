@@ -214,7 +214,7 @@ body {
 
 .top-bar a:hover {
     background-color: white;
-    color: lightskyblue;
+    color: black;
 
 }
 
@@ -408,10 +408,11 @@ body {
 /* akhir skill */
 /* awal time line */
 .timeline {
-    /* position: relative; */
-    margin: 50px auto;
+    position: relative;
+    /* margin: 50px auto; */
     padding: 40px 0;
-    width: 500px;
+    height: 500px;
+    background-color: rgb(187, 183, 183);
 
 }
 
